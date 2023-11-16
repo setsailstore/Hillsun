@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  text-decoration: none;
+
+}
+.home{
+    background-color:rgb(254, 246, 246);
+    width: 100%;
+    padding: 20px;
+    border-bottom: 2px solid grey;
+}
+.navigasi{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2px;
+    align-items: center;
+}
+.navigasi img{
+    width: 70px;
+}
+.navigasi h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.navigasi ul{
+    display: flex;
+
+}
+.navigasi li{
+    list-style-type: none;
+ 
+}
+.navigasi a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin: 20px;
+}
+#homesection{
+    margin-top: 200px;
+}
+#sample{
+margin-top: 159px;
+margin-bottom: 50px;
+}
+
+
+.orderlink{
+    background-color: black;
+    color: white;
+    border:none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  .orderlink:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+    #section1{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0;
+    
+    }
+   .text{
+      margin-top: 120px;
+      padding: 40px; 
+    }
+    .text h1{
+      font-size: 100px;
+      text-transform: uppercase;
+      }
+    #section1 img{
+      width: 450px;
+      margin-top: 80px;
+      margin-right: 50px;
+    }
+    
+    #hillsunproduct{
+      margin:10px
+  }
+  #product{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .subtitle{
+    margin-top: 140px;
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+  .product1{
+    border: 2px solid black;
+    width: 320px;
+    padding: 25px;
+    border-radius: 20px;
+  }
+  
+  .product1 img{
+    width: 200px;
+  }
+  .product2{
+    border: 2px solid black;
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+  }
+  
+  .product2 img{
+    width: 190px;
+  }
+  
+  .product3{
+    border: 2px solid black;
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+  }
+  
+  .product3 img{
+    width: 190px;
+  }
+  #contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .image {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+  }
+  .about{
+    margin-left: 40px;
+  }
+  
+  
+  .image img{
+    border: 2px solid rgb(67, 2, 59);
+    width: 100px;
+    padding: 25px;
+    display: inline;
+    border-radius: 20%;
+    background-color: rgb(253, 250, 250);
+    
+  }
+  .image img:hover{
+    width: 150px;
+    transition: 0.7s;
+  }
+  #section3{
+    margin-top: 180px;
+    margin-bottom: 80px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #contact {
+      flex-direction: column; 
+    }
+    
+    .image {
+      margin-top: 10px;
+      flex: 0 0 auto;
+      text-align: center; 
+      margin-bottom: 20px; 
+    }
+    
+    .about {
+      order: 1; 
+    }
+    .home{
+      height: 190px;
+    }
+    .navigasi {
+      text-align: center; 
+    }
+    .navigasi img {
+      width: 100px;
+    }
+    h1 {
+      font-size: 24px; 
+    }
+    ul {
+        list-style: none; 
+        padding: 0; 
+      }
+      li {
+        margin: 10px 0; 
+      }
+      
+      
+      #homesection h1 {
+        font-weight: 100px;
+      }
+      #sample img {
+        width: 300px /* Agar gambar mengisi lebar penuh */
+      }
+      
+      
+      
+      #product{
+        display: block;
+      }
+      .product1{
+        width: 298px;
+        
+      }
+      
+    
+
+      #section1{
+        display: block;
+      }
+      .text {
+        margin-top: 60px;
+        margin-left: 5px;
+        padding: 10px;
+      }
+    .text h1{
+      font-size: 40px;
+    }
+    #section1 img{
+      width: 250px;
+      margin-top: 0;
+    }
+    
+    .orderlink{
+      border:none;
+      background-color: black;
+      text-decoration: none;
+      color:white;
+      padding: 10px 30px;
+      border-radius: 20px;
+    }
+    .orderlink:hover{
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+    }
+  
+    
+      .home {
+          padding: 10px; 
+        }
+        .navigasi {
+          flex-direction: column; 
+          align-items: center; 
+          height: 150px;
+        }
+        .navigasi img {
+          width: 80px;
+        }
+        .navigasi h1 {
+          font-size: 24px;
+        }
+        
+        .navigasi li {
+          margin: 10px 0; 
+          text-align: center; 
+          
+        }
+        .navigasi a {
+          width: auto; 
+        }
+        #homesection {
+          margin-top: 200px;
+          font-size: medium; 
+        }
+        #homesection h1{
+          font-size: 70px;
+        }
+        #sample {
+          margin-top: 100px; 
+          margin-bottom: 20px;
+          
+        }
+      
+    }
